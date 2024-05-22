@@ -1,0 +1,26 @@
+.movie-page-img {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+  height: auto;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 40px;
+  display: block;
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .movie-page-img {
+    height: 650px;
+  }
+}
+
+@media (max-width: 560px) {
+  .movie-page-img {
+    height: auto;
+  }
+}
